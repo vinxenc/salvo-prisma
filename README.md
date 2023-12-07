@@ -1,4 +1,7 @@
 ```shell
+# lint
+cargo clippy --fix
+
 # prisma format
 cargo prisma
 
