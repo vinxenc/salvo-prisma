@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Build Primsa
+      run: cargo prisma generate --schema=./prisma/schema.prisma
     - name: Build
       run: cargo build --verbose
     - name: Run tests
