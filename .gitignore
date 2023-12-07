@@ -1,1 +1,3 @@
+/server/src/prisma.rs
 /target
+.env
